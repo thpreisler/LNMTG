@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liam Neeson Movie Title Generator</title>
+</head>
+
+<body>
+<script src="generator.js"></script>
+
+<h1>Liam Neeson Movie Title Generator</h1>
+<p id="title">Your title</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+    function myFunction() {
+        var title = generate();
+        document.getElementById("title").innerHTML = title;
+    }
+</script>
+</body>
+</html>
